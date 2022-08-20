@@ -1,6 +1,6 @@
 # website
 
-https://mutayyab01.github.io/website/landing-page/
+[Landing Page(]https://mutayyab01.github.io/website/landing-page/)
 
 
-https://mutayyab01.github.io/website/contact
+[Contact Us Foam](https://mutayyab01.github.io/website/contact)
