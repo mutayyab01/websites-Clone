@@ -1,0 +1,64 @@
+body{
+    font-size: 20px;
+}
+p{
+    margin: 20px 0px 0px 30px;
+    /* color: aqua; */
+}
+.rec{
+    width: 90%;
+    min-height: 100px;
+    margin: 10 auto;
+    background-color: lightskyblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+
+}
+.pic1,.pic3{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 100px ;
+    height: 100px;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+}
+.pic2,.pic4{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 100px ;
+    height: 100px;
+    text-align: center;
+    float: right;
+    margin-left: 10px;
+}
+.one{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    margin-left: 28px;
+
+}
+.two{
+    display: flex;
+    position: absolute;
+    top: 270px;
+    margin-left: 28px;
+}
+.three{
+    display: flex;
+    position: absolute;
+    top: 141px;
+    margin-left: 27px;
+}
+.four{
+    display: flex;
+    position: absolute;
+    top: 402px;
+    margin-left: 27px
+}
