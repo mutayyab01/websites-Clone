@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.wrapper{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  height: 150px;
+}
+.wrapper .statictext{
+    font-size: 50px;
+}
+.dynamictext li{
+   
+    list-style-type: none;
+    font-size: 50px;
+}
+.dynamictext ul{
+/* 
+    margin-top: 21px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    padding-bottom: 71px;
+    line-height: 77px;
+    height: 90px;
+    background: red;
+    overflow: hidden; */
+
+
+
+
+    margin-top: 16px;
+    margin-left: 15px;
+    line-height: 77px;
+    height: 90px;
+    /* background: red; */
+    overflow: hidden;
+    animation: slide 6s steps(4)infinite;
+    top: 0;
+}
+@keyframes slide{
+    100%{
+       top: -260;
+    }
+}
+.dynamictext ul li{
+padding-bottom: 20px;
+}
+.dynamictext li span{
+    position: relative;
+}
+.dynamictext li span::after{
+content: "";
+position: absolute;
+height: 70px ;
+width:100% ;
+left: 0;
+background: white;
+border-left: 2px solid red;
+animation: typing 1.5s steps(10)infinite;
+}
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0px -35px 0px 35px;
+    }
+}
+/* .header {
+  padding-top: 40px;
+  font-size: 25px;
+  text-align: center;
+  color: whitesmoke;
+  width: 100%;
+  height: 150px;
+  background-color: blueviolet;
+} */
+nav {
+    flex-wrap: wrap;
+    position:fixed;
+    width: 100%;
+  display: flex;
+  background-color: rgba(38, 88, 77, 0.574);
+  align-items: center;
+  justify-content: space-between;
+padding-left: 40px;
+  padding-right: 50px;
+font-size: 23px;
+}
+nav ul{
+    transition: all .3s ease;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+
+}
+.btn:hover{
+    transition: opacity .3s ease,width .3s ease;
+
+    color: black;
+    text-decoration: underline;
+}
+.btn:active{
+    transform: scale(0.95);
+}
+
+nav ul {
+  justify-content: center;
+  display: flex;
+  padding: 18px;
+  gap: 25px;
+  list-style-type: none;
+}
+.morale{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: 50 auto;
+    min-height: 100vh;
+}
+.morale h1{
+    padding: 19px;
+    font-size: 27px;
+}
+.morale p{
+    font-size: 20px;
+}
+.content  p,.content2 p,.content3 p{
+
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(0, 0, 0);
+}
+.content2,.content3{
+    margin-top: 60px;
+}
+.sticky{
+    position: sticky;
+  top: 0;
+  width: 100%;
+}
+/* Now Animation  */
+
+
+
+
+
+
+
+
+
+
+
