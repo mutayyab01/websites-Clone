@@ -15,3 +15,6 @@
 
 
 [Flexbox Exercise 1 ](https://mutayyab01.github.io/website/flexbox-1)
+
+
+[Flexbox Exercise 2](https://mutayyab01.github.io/website/flexbox-2)
