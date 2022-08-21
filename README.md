@@ -12,3 +12,6 @@
 
 
 [Float Exercise ](https://mutayyab01.github.io/website/Sticky-navbar)
+
+
+[Float Exercise ](https://mutayyab01.github.io/website/flexbox-1)
