@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #95C8C4;
+background: -moz-linear-gradient(45deg, #95C8C4 0%, #1C6EA4 0%, #C57B9D 100%);
+background: -webkit-linear-gradient(45deg, #95C8C4 0%, #1C6EA4 0%, #C57B9D 100%);
+background: linear-gradient(45deg, #95C8C4 0%, #1C6EA4 0%, #C57B9D 100%);
+}
+.morale{
+    margin-top: 20px;
+    min-height: 100vh;
+}
+.morale .credit{
+    text-align: center;
+    font-size: 45px;
+    font-family: monospace;
+    text-transform: uppercase;
+   
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3), 13px 10px 10px rgba(169,204,206,0.85);
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    /* align-items: center;
+    justify-content: center; */
+}
+.card{
+    margin-top: 30px;
+    width: 370px;
+    height: 654px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    background-color: whitesmoke;
+    border: 3px groove #1C6EA4;
+    box-shadow: 12px 30px 35px -2px rgba(0,0,0,0.55);
+}
+.card2{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 361px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border: 3px groove #1C6EA4;
+    box-shadow: 12px 30px 35px -2px rgba(0,0,0,0.55);
+}
+.wrapper .image{
+    width: 349px;
+
+    height: 300px;
+}
+.wrapper .image img{
+    width: 364px;
+    height: 300px;  
+
+}
+.wrapper .image2 img{
+    width: 355px;
+    height: 300px;  
+
+}
+.textarea{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    padding-left: 10px;
+
+}
+.textarea h1{
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 29px;
+    font-weight: bold;
+}
+.textarea p{
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    
+}
+.textarea .p{
+    padding: 27px;
+
+}
+.btn{
+    margin: 10px 20px 33px 20px;
+    padding: 13px;
+    width: 230px;
+    font-size: 21px;
+    color: white;
+    background: #CEC3A2;
+background: -moz-radial-gradient(center, #CEC3A2 0%, #7A94A4 58%, #9BBFC5 100%);
+background: -webkit-radial-gradient(center, #CEC3A2 0%, #7A94A4 58%, #9BBFC5 100%);
+background: radial-gradient(ellipse at center, #CEC3A2 0%, #7A94A4 58%, #9BBFC5 100%);
+    /* background-color: rgba(46, 46, 46, 0.47); */
+}
+.btn:hover{
+    color: rgba(0, 0, 0, 0.47);
+    background-color: rgb(255, 255, 255);
+}
+.btn:active{
+    transform: scale(0.95);
+}
