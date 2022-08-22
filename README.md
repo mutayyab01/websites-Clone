@@ -20,4 +20,4 @@
 [Flexbox Exercise 2](https://mutayyab01.github.io/website/flexbox-2)
 
 
-[Flexbox Exercise 3](https://mutayyab01.github.io/website/Flexbox-3)
+[Flexbox Exercise 3](https://mutayyab01.github.io/website/flexbox-3)
