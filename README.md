@@ -21,3 +21,6 @@
 
 
 [Flexbox Exercise 3](https://mutayyab01.github.io/website/flexbox-3)
+
+
+[Grid Exercise 1](https://mutayyab01.github.io/website/grid-1)
