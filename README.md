@@ -24,3 +24,6 @@
 
 
 [Grid Exercise 1](https://mutayyab01.github.io/website/grid-1)
+
+
+[Grid Exercise 1](https://mutayyab01.github.io/website/grid-2)
