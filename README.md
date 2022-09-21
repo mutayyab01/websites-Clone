@@ -35,6 +35,6 @@
 [Website Practice](https://mutayyab01.github.io/website/Mutayyab-Website)
 
 
-[Website Practice](https://mutayyab01.github.io/website/MovieVerse-Clone)
+[MovieVerse Clone](https://mutayyab01.github.io/website/MovieVerse-Clone)
 
 
