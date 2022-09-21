@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>MovieVerse | Clone | Mutayyab</title>
+  </head>
+  <body>
+
+    <nav>
+      <div class="navbar-header">
+        <a href="#"> <img src="./assets/images/logo.png" alt="Logo" id="border" /></a>
+        <div class="search-container">
+          <form action="">
+            <input
+              type="text"
+              name="text"
+              autocomplete="off"
+              placeholder="What are you looking for?"
+            />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </div>
+        <div class="btnseaction">
+          <button class="btn bolly"><a href=""> Bollywood</a></button>
+          <button class="btn anime"><a href=""> AnimeFlix </a></button>
+        </div>
+      </div>
+
+      <!-- Home,Movie,GenreYear,Quality,Tv Show Section  -->
+
+      <div class="navebar-content">
+        <div class="home">
+          <a href="#"> <i class="fa-solid fa-house-chimney"></i>Home</a>
+        </div>
+
+        <div class="dropdown" >
+          <a href="#" class="dropbtn" 
+            ><img src="./assets/icon/movieicon.png" alt="Movie Icon" /> movies
+            &nbsp;&nbsp;<i class="fa-solid fa-caret-down"></i>
+          </a>
+          <div class="dropdown-content genre">
+            <a href="#">latest released</a>
+            <a href="#">hollywood</a>
+            <a href="#">dual audio</a>
+            <a href="#">multi audio</a>
+            <a href="#">hindi movies</a>
+            <a href="#">english movies</a>
+            <a href="#">adult movies</a>
+            <a href="#">asian movies</a>
+            <a href="#">hacking movies</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#">
+            <i class="fa-solid fa-link"></i>genre&nbsp;&nbsp;
+            <i class="fa-solid fa-caret-down"></i>
+          </a>
+          <div class="dropdown-content">
+            <a href="#">action</a>
+            <a href="#">adventure</a>
+            <a href="#">animated</a>
+            <a href="#">comedy</a>
+            <a href="#">crime</a>
+            <a href="#">fantacy</a>
+            <a href="#">horror</a>
+            <a href="#">mystery</a>
+            <a href="#">sci-fi</a>
+            <a href="#">romance</a>
+            <a href="#">thriller</a>
+            <a href="#">documentry</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#">
+            <i class="fa-solid fa-calendar-days"></i>year&nbsp;&nbsp;
+            <i class="fa-solid fa-caret-down"></i>
+          </a>
+          <div class="dropdown-content">
+            <a href="#">2022 movies</a>
+            <a href="#">2022</a>
+            <a href="#">2021 movies</a>
+            <a href="#">2020 movies</a>
+            <a href="#">2019 movies</a>
+            <a href="#">2018</a>
+            <a href="#">2017 </a>
+            <a href="#">2016 </a>
+            <a href="#">2015 </a>
+            <a href="#">2010-2015 </a>
+            <a href="#">2005-2010 </a>
+            <a href="#">2000-2005 </a>
+            <a href="#">1990-2000 </a>
+            <a href="#">1980-1990 </a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#">
+            <i class="fa-solid fa-skull-crossbones"></i>quality&nbsp;&nbsp;
+            <i class="fa-solid fa-caret-down"></i>
+          </a>
+          <div class="dropdown-content">
+            <a href="#">480p movies</a>
+            <a href="#">720p movies</a>
+            <a href="#">1080p movies</a>
+            <a href="#">300mb movies</a>
+            <a href="#">500mb movies</a>
+            <a href="#">700mb movies</a>
+            <a href="#">900mb movies</a>
+            <a href="#">1gbmb movies</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#">
+            <i class="fa-solid fa-globe"></i> tv shows&nbsp;&nbsp;
+            <i class="fa-solid fa-caret-down"></i>
+          </a>
+          <div class="dropdown-content">
+            <a href="#">action series</a>
+            <a href="#">adventure series</a>
+            <a href="#">animated series</a>
+            <a href="#">comedy series</a>
+            <a href="#">crime series</a>
+            <a href="#">drama series</a>
+            <a href="#">horror series</a>
+            <a href="#">mystery series</a>
+            <a href="#">romance series</a>
+            <a href="#">sci-fi series</a>
+            <a href="#">thriller series</a>
+            <a href="#">korean series</a>
+            <a href="#">k-drama series</a>
+            <a href="#">2022 series</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#">
+            <i class="fa-solid fa-globe"></i>web series&nbsp;&nbsp;
+            <i class="fa-solid fa-caret-down"></i>
+          </a>
+          <div class="dropdown-content">
+            <a href="#">hindi dubbed</a>
+            <a href="#">english</a>
+            <a href="#">netflix</a>
+            <a href="#">amazon prime video</a>
+            <a href="#">hulu</a>
+            <a href="#">the cw</a>
+          </div>
+        </div>
+      </div>
+<!-- End -->
+
+    </nav>
+
+    <!-- Main Content  -->
+
+    <main>
+      <div class="totop">
+        <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+      <div class="headerdown">
+        <ul>
+          <li>
+            <a href="https://t.me/mutayyab01" target="_blank" class="button"
+              ><i class="fa-brands fa-telegram"></i> Join Telegram
+            </a>
+          </li>
+          <li><a href="#" class="button button1"> 300mb movies</a></li>
+          <li><a href="#" class="button button1"> 480p movies </a></li>
+          <li><a href="#" class="button button1"> 720p movies </a></li>
+          <li><a href="#" class="button button1"> dual audio </a></li>
+          <li><a href="#" class="button button1"> web series </a></li>
+          <li><a href="#" class="button button1"> fan dubbed </a></li>
+          <li><a href="#" class="button button1"> hindi series </a></li>
+          <li>
+            <a href="#" class="button button4k">
+              <i class="fa-solid fa-film"></i>4k movies
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Announcement Section -->
+      <div class="announcement">
+        <p>
+          <b> This Website Is The Clone Of Origional => <a href="https://moviezverse.net/" target="_blank"> Moviez Verse</a>  &lt;= Website &nbsp;&nbsp; <mark>&nbsp;&nbsp;Made by Mutayyab&nbsp;&nbsp;</mark> </b>
+        </p>
+      </div>
+      <!-- Movies Section  -->
+
+
+
+      <div class="maincontent">
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/tenet.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Tenet (2020) Dual Audio (Hindi-English) 480p [500MB]
+                || 720p [1.3GB] || 1080p [3.8GB]</b
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/gadar.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >
+                Download Gadar: Ek Prem Katha (2001) Hindi Movie Bluray || 720p [1.6GB] || 1080p [2.2GB]
+                </b
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/chhichore.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Chhichhore (2019) Hindi Movie WEB-DL 480p [400MB] || 720p [1.2GB] || 1080p [2.5GB]</b
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/laal singh.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Laal Singh Chaddha (2022) Hindi Movie Cam Rip || 480p [450MB] || 720p [1.2GB] || 1080p [3.8GB]</b
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/alita.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Alita: Battle Angel (2019) {Hindi-English} Bluray 480p [440MB] || 720p [1.2GB] || 1080p [2.6GB]</b
+              >
+            </p>
+          </div>
+        </div>
+      
+      
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/inception.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Inception (2010) Dual Audio {Hindi-English} 480p [450MB] || 720p [1.3GB] || 1080p [3.2GB]
+                </b
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/intestellar.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Interstellar (2014) Dual Audio (Hindi-English) 480p [600MB] || 720p [1.86GB] || 1080p [2.9GB]</b
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/johnny.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Johnny English (2003) Dual Audio {Hindi-English} 480p [350MB] || 720p [1.1GB]
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  (3 Part Trilogy) </b
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/johnwick.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download John Wick: Chapter 3: Parabellum (2019) Dual Audio {Hindi-English} Bluray 480p [400MB] || 720p [1.1GB] || 1080p [2.8GB]</b
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/maxe.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Maze Runner: The Death Cure (2018) {Hindi-English} 480p [450MB] || 720p [1.2GB] || 1080p [3.7GB] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3 Part Trilogy)</b
+              >
+            </p>
+          </div>
+        </div>
+      
+    
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/freeguy.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Free Guy (2021) Dual Audio {Hindi-English} Bluray 480p [550MB] || 720p [1.2GB] || 1080p [2.6GB]</b
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/jumanji.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Jumanji: Welcome to the Jungle (2017) Dual Audio {Hindi-English} 480p [400MB] || 720p [1.2GB] || 1080p [2.7GB] (3 Part Trilogy)</b
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/gravity.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Gravity (2013) Dual Audio {Hindi-English} 480p [300MB] || 720p [1GB] || 1080p [3.1GB]</b
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/doraemon.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Doraemon: Nobita’s Secret Gadget Museum (2013) Hindi Dubbed 480p [200MB] || 720p [560MB]</b
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/bighero.png"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Big Hero 6 (2014) Dual Audio {Hindi-English} 480p [300MB] || 720p [1GB] || 1080p [2.6GB]</b
+              >
+            </p>
+          </div>
+        </div>
+     
+ 
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/prometheus.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Prometheus (2012) Dual Audio {Hindi-English} 480p [350MB] || 720p [1GB] || 1080p [3.3GB]</b
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/sucide.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download The Suicide Squad (2021) Dual Audio {Hindi-English} Web-DL 480p [450MB] || 720p [1.2GB] || 1080p [2.9GB]</b
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/liku.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Loki (Season 1) Dual Audio {Hindi-English} 480p [150MB] || 720p [400MB] || 1080p [1.2GB]</b
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/moneyheist.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Money Heist (Season 1 – 5) Dual Audio {English-Hindi} 480p [130MB] || 720p [280MB] || 1080p [550MB]</b
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./assets/images/avatar.jpg"
+             
+              alt="Movie Poster"
+            />
+          </div>
+          <div class="description">
+            <p>
+              <b
+                >Download Avatar (2009) Dual Audio {Hindi-English} 480p [700MB] || 720p [1.4GB] || 1080p [5.8GB]
+               </b
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+<!-- Page Number Section -->
+
+
+<div class="pagenumber">
+  <div class="box" id="first"> <a href="">1</a> </div>
+  <div class="box"> <a href="#">2</a></div>
+  <div class="box"> <a href="#">3</a></div>
+  <div class="box"> <a href="#">4</a></div>
+  <div class="box"> <a href="#">5</a></div>
+  <div class="box"> <a href="#">6</a></div>
+  <div class="box"> <a href="#">7</a></div>
+  <div class="box" id="high"> <a href="#">...</a></div>
+  <div class="box " id="next"> <a href="#">Next</a></div>
+</div>
+
+
+<!-- Footer SEction -->
+
+<footer>
+  <div class="waves">
+    <div class="wave "id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+  </div>
+  <ul class="social-icon">
+    <li><a href="https://www.facebook.com/mutayyab01" target="_blank"> <ion-icon name="logo-facebook"></ion-icon></a></li>
+    <li><a href="https://github.com/mutayyab01" target="_blank"> <ion-icon name="logo-github"></ion-icon></a></li>
+    <li><a href="https://www.linkedin.com/in/mutayyab01/" target="_blank"> <ion-icon name="logo-linkedin"></ion-icon></a></li>
+    <li><a href="https://wa.me/+923457848519" target="_blank"> <ion-icon name="logo-whatsapp"></ion-icon></a></li>
+  </ul>
+<ul class="menu">
+  <li><a href="#"> home   </a>   </li>
+  <li><a href="#">About us    </a>   </li>
+  <li><a href="#">contact us    </a>   </li>
+  <li><a href="#"> report a problem   </a>   </li>
+</ul>
+<p> Made by mutayyab |&nbsp;&nbsp; <a href="https://www.facebook.com/itteach" target="_blank">Facebook Page Link</a> &nbsp;&nbsp;| all right reserver &copy;    </p>
+</footer>
+
+    </main>
+
+
+
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
