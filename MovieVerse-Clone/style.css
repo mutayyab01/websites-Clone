@@ -359,6 +359,8 @@ height: 300px;
     margin-bottom: 30px;
     background-color: #494949 ;
     border-radius: 0 0 10px 10px;
+    flex-wrap: wrap;
+    padding-top: 10px;
 }
 .pagenumber .box{
     width: 42px;
@@ -370,7 +372,7 @@ height: 300px;
     align-items: center;
     display: flex;
     margin-left: 5px;
-    
+    margin-top: 10px;
 }
 .pagenumber .box a{
     text-decoration: none;
@@ -594,6 +596,10 @@ margin-left: 80px;
 
 
 }
+@media screen and (min-width:470px) {
+
+
+}
 @media screen and (max-width:491px) {
     .headerdown{
       font-size: 13px;
@@ -605,11 +611,12 @@ margin-left: 80px;
 
 }
 @media screen and (max-width:374px) {
-   
-
-
 
 }
+
+
+
+
 
 
 
