@@ -1,0 +1,118 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading >h2{
+  color: brown;
+    margin-top:20px;
+    padding: 10px;
+text-align: center;
+/* border: 2px solid red;
+outline: 2px solid blue ;
+outline-offset: 1px; */
+}
+.wrapper{
+    margin-top: 10px;
+font-size: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+
+    
+}
+[class*="box"]
+{
+    /* font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif; */
+    /* margin-top: 10px; */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+}
+[class*="box"] >p{
+    padding-top: 20px;
+}
+.box-1{
+background-color: grey;
+
+}
+.box-2{
+background-color: rgba(128, 128, 128, 0.8);
+
+}
+.box-3{
+background-color: rgba(128, 128, 128, 0.6);
+
+}
+.box-4{
+background-color: rgba(128, 128, 128, 0.4);
+
+}
+/* Desktop Screen BreakPoint */
+@media screen and (max-width:1200px){
+ 
+    
+
+
+
+
+}
+/* Laptop Screen Breakpoint */
+@media screen and (max-width:1024px){
+    .wrapper{
+    flex-wrap: wrap
+    }
+    .box-1,.box-2,.box-3,.box-4{
+    width: 50%;
+        }
+
+
+
+
+}
+/* Tablet Screen Breakpoint */
+
+@media screen and (max-width:768px){
+    
+}
+/* Mobile Screen Breakpoint */
+
+@media screen and (max-width:568px){
+    .box-1,.box-2,.box-3,.box-4{
+        width: 100%;
+            }
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
