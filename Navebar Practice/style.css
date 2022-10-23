@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+HEADER {
+  background-color: black;
+  color: white;
+  padding: 8px 0px 6px 40px;
+  height: 9vh;
+  display: flex;
+}
+header h1 {
+  display: inline;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 35px;
+  float: left;
+  margin-right: 10px;
+}
+
+nav ul {
+  float: left;
+  display: flex;
+
+  height: 100%;
+  align-items: center;
+}
+nav ul li {
+  list-style-type: none;
+  align-items: center;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+#nav {
+  font-family: "Montserrat";
+}
+#portfolio {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.hovered {
+  background-color: red;
+  padding: 31px 20px 29px 20px;
+}
+.divider {
+  background-color: red;
+  height: 5px;
+}
+.hovered {
+  padding-right: 20px;
+}
+.hover:hover {
+  background-color: blue;
+  padding: 31px 20px 25px 20px;
+}
+.fullwidthimage {
+  min-height: 100vh;
+  background: url(img.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+.homesub {
+  padding: 10% 0% 0 52%;
+  font-size: 25px;
+  color: yellow;
+}
+.homec {
+  margin: 0.5% 0 0 52%;
+  font-size: 75px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline;
+}
+.homep {
+  margin: 0 0 0 52%;
+  display: inline-block;
+  font-size: 64px;
+}
+.btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+
+  font-weight: 900;
+  margin: 0 0 0 52%;
+  background-color: yellow;
+  color: black;
+  border: none;
+  height: 50px;
+  font-size: 1.4em;
+  padding: 0 1em;
+  cursor: pointer;
+  outline: none;
+  border-radius: 30px;
+  outline: 1px solid red;
+  /* outline:  1px solid rgb(0, 8, 255); */
+  outline-offset: 1px;
+  
+}
+.btn:active {
+  transform: scale(0.95);
+}
+
+@media screen and (max-width: 1050px) {
+  .homesub {
+    padding: 10% 0% 0 40%;
+  }
+  .homec {
+    margin: 0.5% 0 0 40%;
+  }
+  .homep {
+    margin: 0 0 0 40%;
+  }
+  .btn {
+    margin: 0 0 0 40%;
+  }
+}
+
+@media screen and (max-width: 826px) {
+  .homesub {
+    padding: 10% 0% 0 30%;
+  }
+  .homec {
+    margin: 0.5% 0 0 30%;
+  }
+  .homep {
+    margin: 0 0 0 30%;
+  }
+  .btn {
+    margin: 0 0 0 30%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  HEADER {
+    position: relative;
+    height: 22vh;
+    padding-left: 0; 
+  }
+  #id {
+  }
+  header h1 {
+    position: relative;
+    top: 25px;
+    text-align: center;
+    width: 100%;
+  }
+  .hovered {
+    padding: 31px 20px 28px 20px;
+  }
+  nav ul {
+    width: 100%;
+    padding: 8px 0px 6px 40px;
+  }
+  .homesub {
+    padding: 10% 0% 0 20%;
+  }
+  .homec {
+    margin: 0.5% 0 0 20%;
+  }
+  .homep {
+    margin: 0 0 0 20%;
+  }
+  .btn {
+    margin: 0 0 0 20%;
+  }
+}
+@media screen and (max-width: 600px) {
+    .homesub {
+      padding: 10% 0% 0 14%;
+    }
+    .homec {
+      margin: 0.5% 0 0 14%;
+    }
+    .homep {
+      margin: 0 0 0 14%;
+    }
+    .btn {
+      margin: 0 0 0 14%;
+    }
+  }
+  @media screen and (max-width: 560px) {
+    .homesub {
+      padding: 10% 0% 0 8%;
+    }
+    .homec {
+      margin: 0.5% 0 0 8%;
+    }
+    .homep {
+      margin: 0 0 0 8%;
+    }
+    .btn {
+      margin: 0 0 0 8%;
+    }
+  }
+  @media screen and (max-width: 523px) {
+    HEADER {
+        padding: 0 0 -1px 0;
+      }
+      nav ul {
+       
+        width: 100%;
+        padding: 0;
+        /* font-size: 18px; */
+      }
+    .homesub {
+      padding: 10% 0% 0 8%;
+  font-size: 18px;
+
+    }
+    .homec {
+      margin: 0.5% 0 0 8%;
+  font-size: 55px;
+
+    }
+    .homep {
+      margin: 0 0 0 8%;
+  font-size: 44px;
+
+    }
+    .btn {
+      margin: 0 0 0 8%;
+  font-size: 1em;
+
+    }
+  }
+  
