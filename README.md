@@ -39,3 +39,6 @@
 
 
 [Responsive Challange](https://mutayyab01.github.io/website/Responsive-Challange)
+
+[Navebar Practice](https://mutayyab01.github.io/website/Navebar%20Practice)
+
