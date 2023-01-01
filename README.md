@@ -1,4 +1,6 @@
 # website
+[Perdiotic Table](https://mutayyab01.github.io/website/Perdiotic-Table)
+
 
 [Landing Page](https://mutayyab01.github.io/website/landing-page/)
 
