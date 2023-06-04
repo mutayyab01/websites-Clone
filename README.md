@@ -47,4 +47,4 @@
 [Portfolio Website Practice](https://mutayyab01.github.io/website/Portfolio-Website)
 
 
-[Budget App](https://github.com/mutayyab01/website/blob/main/Budget%20App/index.html)
+[Budget App](https://mutayyab01.github.io/website/Budget%20App/index.html)
