@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popover in BS5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+
+ <!-- <button type="button" class="btn btn-primary" title="Popover Title" data-bs-toggle="popover" data-bs-content="Mutayyab">Toggle Popover</button> -->
+
+<!-- ---------------------------------Positioning Popover------------------------------ -->
+ <!-- <button type="button" class="btn btn-primary  float-end " style="margin-top: 400px;" title="Popover Title" data-bs-toggle="popover" data-bs-content="Mutayyab" data-bs-placement="top" >Toggle Popover</button> -->
+
+
+<!-- ---------------------------------Closing Popover------------------------------ -->
+<!-- <h1 title="Popover Title" data-bs-content="Mutayyab" data-bs-toggle="popover" style="width: 500px;"> Bootstrap 5 is Amazing</h1> -->
+
+ <!-- <button type="button" class="btn btn-primary" title="Popover Title" data-bs-toggle="popover" data-bs-content="Mutayyab" data-bs-trigger="focus">Toggle Popover</button> -->
+
+
+
+
+
+<!-- ---------------------------------Hoverable Popover------------------------------ -->
+
+
+ <!-- <button type="button" class="btn btn-primary" title="Popover Title" data-bs-toggle="popover" data-bs-content="Mutayyab" data-bs-trigger="hover">Toggle Popover</button> -->
+
+
+
+<!-- ---------------------------------Disabled Element  Popover------------------------------ -->
+
+<span class="d-inline-block"  title="Popover Title" data-bs-toggle="popover" data-bs-content="Mutayyab" data-bs-trigger="hover focus">
+ <button type="button" class="btn btn-primary"    disabled>Diabled</button>
+
+</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+    </script>
+</body>
+</html>
