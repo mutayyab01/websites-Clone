@@ -80,7 +80,7 @@ if(event.key==='d'){
 JinStand.src='images/jin-kisaragi-blazblue-walkforward.gif';
 console.log(JinStand.style.right =(leftjin-=5) +'px' );
  if (leftjin<0) {
-    console.log(thanosStand.style.left =(leftjin+=5) +'px' );
+    console.log(JinStand.style.left =(leftjin+=5) +'px' );
     }
 }
 })
