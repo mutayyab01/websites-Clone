@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Post Assignemt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header id="random" >
+        <div class="head-part1" id="temp">
+            <ul>
+                <li><a href=""><iconify-icon icon="logos:facebook"></iconify-icon></a></li>
+                <li> <input type="search" name="" id="" placeholder=" Search Facebook"> </li>
+            </ul>
+        </div>
+        <div class="head-part2">
+            <ul>
+                <li><a href=""> <iconify-icon icon="ic:round-home"></iconify-icon></a></li>
+                <li><a href=""> <iconify-icon icon="fluent-mdl2:add-friend"></iconify-icon></a></li>
+                <li><a href=""> <iconify-icon icon="ph:video-light"></iconify-icon></a></li>
+                <li><a href=""> <iconify-icon icon="healthicons:market-stall-outline"></iconify-icon></a></li>
+                <li><a href=""> <iconify-icon icon="fluent-mdl2:game"></iconify-icon></li>
+            </ul>
+        </div>
+        <div class="head-part3">
+            <ul>
+                <li><a href=""><iconify-icon icon="ep:menu"></iconify-icon></a></li>
+                <li><a href=""><iconify-icon icon="bi:messenger"></iconify-icon></a></li>
+                <li><a href=""><iconify-icon icon="mingcute:notification-fill"></iconify-icon></a></li>
+                <li> <img src="image/Mutayyab.png" width="35" height="35" alt=""> </li>
+            </ul>
+
+        </div>
+    </header>
+    <section class="sidebar">
+        <div>  <img src="image/Mutayyab.png" width="40" height="40" alt=""> <a href="https://mutayyab01.github.io/website/" target="_blank"><span> Mutayyab Imran</span> </a> </div>
+        <div><iconify-icon icon="fa-solid:user-friends" style="color: #32a0e3;"></iconify-icon> <span>
+                &nbsp;Friend</span> </div>
+        <div><iconify-icon icon="ri:group-2-fill" style="color: #32a0e3;" width="26"
+                height="26"></iconify-icon><span>Group</span> </div>
+        <div><iconify-icon icon="solar:feed-outline" style="color: #32a0e3;" width="26" height="26"></iconify-icon>
+            <span>Feed</span>
+        </div>
+        <div><iconify-icon icon="healthicons:market-stall-outline" style="color: #32a0e3;" width="26"
+                height="26"></iconify-icon> <span>Marketplace</span> </div>
+        <div><iconify-icon icon="ph:video-light" style="color: #32a0e3;" width="26" height="26"></iconify-icon>
+            <span>Video</span>
+        </div>
+        <div><iconify-icon icon="ri:memories-fill" style="color: #32a0e3;" width="26" height="26"></iconify-icon>
+            <span>Memories</span>
+        </div>
+        <div><iconify-icon icon="iconamoon:arrow-down-2-fill" style="color: #32a0e3;" width="26"
+                height="26"></iconify-icon> <span>See more</span> </div>
+    </section>
+    <section class="createPost">
+        <div class="Postheader">
+            <h3>Create post</h3>
+            <span><iconify-icon icon="fluent-emoji-high-contrast:cross-mark"
+                    style="color: #32a0e3;"></iconify-icon></span>
+        </div>
+        <div class="PostHeaerPic">
+            <div><img src="image/Mutayyab.png" width="40" height="40" alt=""></div>
+            <div> <span> Mutayyab Imran</span>
+                <div class="AboveImage">
+                    <iconify-icon icon="fa-solid:user-friends" style="color: #32a0e3;"></iconify-icon>
+                    <span>See more </span>
+                    <iconify-icon icon="iconamoon:arrow-down-2-fill" style="color: #32a0e3;" width="20"
+                        height="20"></iconify-icon>
+                </div>
+            </div>
+
+        </div>
+        <div class="PostText">
+            <div class="input"> 
+                <textarea placeholder="What's on your mind, Mutayyab ?" id="txtArea" cols="10" rows="2"
+                    onkeyup="if (this.scrollHeight > this.clientHeight) this.style.height = this.scrollHeight + 'px';"
+                    >
+
+                </textarea>
+            </div>
+            <div class="backgrounds">
+                <div id="back"> <button href="" onclick="DisplayBackground()"><img src="image/background.png"
+                            alt=""></button></div>
+                <div class="background-series" id="back-series">
+                    <!-- <button href=""><img  src="image/background-1.jpg" id="btn1" onclick="btnOne()"  alt="" ></button>
+        <button href=""><img  src="image/background-2.jpg" id="btn2" onclick="btnTwo()" alt="" ></button>
+        <button href=""><img  src="image/background-3.jpg" id="btn3" onclick="btnThree()"  alt="" ></button>
+        <button href=""><img  src="image/background-4.jpg" id="btn4" onclick="btnFour()"  alt="" ></button>
+        <button href=""><img  src="image/background-5.jpg" id="btn5" onclick="btnFive()"  alt=""  ></button>
+        <button href=""><img  src="image/background-6.jpg" id="btn6"  onclick="btnSix()"  alt="" ></button>
+        <button href=""><img  src="image/background-7.jpg" id="btn7"  onclick="btnSeven()"  alt="" ></button>
+        <button href=""><img  src="image/background-8.jpg" id="btn8" onclick="btnEight()"  alt="" ></button>
+        <button href=""><img  src="image/background-9.jpg" id="btn9" onclick="btnNine()"  alt="" ></button>
+        <button href=""><img  src="image/background-10.jpg" id="btn10" onclick="btnTen()"  alt="" ></button>
+        <button href=""><img  src="image/background-11.jpg" id="btn11" onclick="btnEleven()"  alt="" ></button>
+        <button href=""><img  src="image/background-12.jpg" id="btn12" onclick="btnTwelve()"  alt="" ></button>
+        <button href=""><img  src="image/background-13.jpg" id="btn13" onclick="btnThirteen()"  alt="" ></button>
+        <button href=""><img  src="image/background-14.jpg" id="btn14" onclick="btnFourteen()"  alt="" ></button> -->
+                </div>
+                <button href=""><iconify-icon icon="fluent:emoji-32-regular" width="30" height="30"></iconify-icon></button>
+            </div>
+            <div class="addyourPostBox">
+                <ul>
+                    <li><a href="">Add to your post </a></li>
+                </ul>
+                <ul>
+                    <li> <a href=""> <iconify-icon icon="flat-color-icons:stack-of-photos"></iconify-icon></a></li>
+                    <li> <a href=""> <iconify-icon icon="mingcute:contacts-fill" style="color: #32a0e3;"></iconify-icon></a></li>
+                    <li> <a href=""> <iconify-icon icon="fluent:emoji-28-regular" style="color: yellow;"></iconify-icon></a></li>
+                    <li> <a href=""> <iconify-icon icon="carbon:location-filled" style="color: red;"></iconify-icon></a></li>
+                    <li> <a href=""> <iconify-icon icon="ri:phone-fill" style="color: #32a0e3;"></iconify-icon></a></li>
+                    <li> <a href=""> <iconify-icon icon="icon-park-outline:more" style="color: gray;"></iconify-icon></a></li>
+                </ul>
+            </div>
+<div class="frame" > <button class="custom-btn btn-3" onclick="Add()"><span id="post" >Post</span></button></div>
+        </div>
+    </section>
+    <section>
+        <div class="publisher">
+            <div>
+            <!-- <img src="image/Credit.gif" alt=""> -->
+            <video src="image/credit.mp4"  title="Mutayyab Imran" autoplay loop muted ></video>
+            </div>
+        </div> 
+    </section> 
+    <section class="AllPost" id="addPost">
+                <!-- <div > 
+                    <p>Lorem ipsum dolor  beatae dicta autem quos molestias similique, consectetur illo.</p> <small> <span id="time" class="moment"> Time </span></small>  
+                    <button class="custom-btn btn-9" onclick="EditPost(this)" style="width: max-content;" >Edit</button>
+                    <button class="custom-btn btn-12" onclick="DeletePost(this)" ><span  >Delete</span><span  >Delete</span></button>  
+                </div> -->
+               
+    </section>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
+</body>
+
+</html>
