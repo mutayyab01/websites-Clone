@@ -398,6 +398,8 @@ border-radius: 10px;
 }
 .AllPost>div>p{
 padding-right: 15px; ;
+word-break: break-all;
+
 }
 
 
