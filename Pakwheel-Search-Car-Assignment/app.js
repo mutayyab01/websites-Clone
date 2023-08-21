@@ -11,7 +11,7 @@ var cars = {
             Kerb_Weight: "1396 KG",
             Transmission: "Automatic",
             Seating_Capacity: "5 - Persons",
-            image: "/images/Civic.jpg",
+            image: "images/Civic.jpg",
             Hybrid: false,
         },
         City: {
@@ -25,7 +25,7 @@ var cars = {
             Kerb_Weight: "1178 KG",
             Transmission: "Manual & Automatic",
             Seating_Capacity: "5 - Persons",
-            image: "/images/City.jpg",
+            image: "images/City.jpg",
             Hybrid: false,
 
         },
@@ -40,7 +40,7 @@ var cars = {
             Kerb_Weight: "1240 KG",
             Transmission: "Automatic",
             Seating_Capacity: "7 - Persons",
-            image: "/images/BRV.jpg",
+            image: "images/BRV.jpg",
             Hybrid: false,
 
 
@@ -162,7 +162,7 @@ var cars = {
             Kerb_Weight: "1145 KG",
             Transmission: "Manual & Automatic",
             Seating_Capacity: "5 - Persons",
-            image: "/images/Yaris.jpg",
+            image: "images/Yaris.jpg",
             Hybrid: false,
 
         },
@@ -177,7 +177,7 @@ var cars = {
             Kerb_Weight: "1320 KG",
             Transmission: "Manual & Automatic",
             Seating_Capacity: "5 - Persons",
-            image: "/images/Corola.jpg",
+            image: "images/Corola.jpg",
             Hybrid: false,
         },
         Rush: {
@@ -191,7 +191,7 @@ var cars = {
             Kerb_Weight: "1320 KG",
             Transmission: "Manual & Automatic",
             Seating_Capacity: "5 - Persons",
-            image: "/images/Rush.jpg",
+            image: "images/Rush.jpg",
             Hybrid: false,
         },
         Hilux: {
@@ -205,7 +205,7 @@ var cars = {
             Kerb_Weight: "2060 KG",
             Transmission: "Automatic & Manual",
             Seating_Capacity: "5 - Persons",
-            image: "/images/Hilux.png",
+            image: "images/Hilux.png",
             Hybrid: false,
         },
         Hiace: {
@@ -219,7 +219,7 @@ var cars = {
             Kerb_Weight: "2625 KG",
             Transmission: "Manual & Automatic",
             Seating_Capacity: "10 - 17 - Persons",
-            image: "/images/Hiace.jpg",
+            image: "images/Hiace.jpg",
             Hybrid: false,
         },
         Fortuner: {
@@ -233,7 +233,7 @@ var cars = {
             Kerb_Weight: "2100 KG",
             Transmission: "Automatic",
             Seating_Capacity: "7 - Persons",
-            image: "/images/Fortuner.png",
+            image: "images/Fortuner.png",
             Hybrid: false,
         },
         Land_Cruiser: {
@@ -247,7 +247,7 @@ var cars = {
             Kerb_Weight: "3230 KG",
             Transmission: "Automatic",
             Seating_Capacity: "7 - Persons",
-            image: "/images/Land_Cruiser.png",
+            image: "images/Land_Cruiser.png",
             Hybrid: false,
         },
         Vitz: {
@@ -261,7 +261,7 @@ var cars = {
             Kerb_Weight: "1110 KG",
             Transmission: "Automatic",
             Seating_Capacity: "5 - Persons",
-            image: "/images/Vitz.jpg",
+            image: "images/Vitz.jpg",
             Hybrid: false,
         },
         Aqua: {
@@ -275,7 +275,7 @@ var cars = {
             Kerb_Weight: "1130 KG",
             Transmission: "Automatic",
             Seating_Capacity: "5 - Persons",
-            image: "/images/Aqua.jpg",
+            image: "images/Aqua.jpg",
             Hybrid: true,
         },//H
         X: {
@@ -289,7 +289,7 @@ var cars = {
             Kerb_Weight: "1560 KG",
             Transmission: "Automatic",
             Seating_Capacity: "5 - Persons",
-            image: "/images/Mark__X.jpg",
+            image: "images/Mark__X.jpg",
             Hybrid: false,
         },
 
@@ -307,7 +307,7 @@ var cars = {
             Kerb_Weight: "650 KG",
             Transmission: "Manual",
             Seating_Capacity: "2 - Persons",
-            image: "/images/Ravi.jpg",
+            image: "images/Ravi.jpg",
             Hybrid: false,
         },
         Bolan: {
@@ -321,7 +321,7 @@ var cars = {
             Kerb_Weight: "550 KG",
             Transmission: "Manual",
             Seating_Capacity: "5 - Persons",
-            image: "/images/Bolan.jpg",
+            image: "images/Bolan.jpg",
             Hybrid: false,
         },
         Alto: {
@@ -335,7 +335,7 @@ var cars = {
             Kerb_Weight: "670 KG",
             Transmission: "Manual & Automatic",
             Seating_Capacity: "4 - Persons",
-            image: "/images/Alto.png",
+            image: "images/Alto.png",
             Hybrid: false,
         },
         Wagon_R: {
@@ -349,7 +349,7 @@ var cars = {
             Kerb_Weight: "835 KG",
             Transmission: "Manual & Automatic",
             Seating_Capacity: "5 - Persons",
-            image: "/images/Wagon_R.jpg",
+            image: "images/Wagon_R.jpg",
             Hybrid: true,
         }, // H
         Cultus: {
@@ -363,7 +363,7 @@ var cars = {
             Kerb_Weight: "795 KG",
             Transmission: "Manual & Automatic",
             Seating_Capacity: "5 - Persons",
-            image: "/images/Cultus.png",
+            image: "images/Cultus.png",
             Hybrid: false,
         },
         Swift: {
@@ -377,7 +377,7 @@ var cars = {
             Kerb_Weight: "895 KG",
             Transmission: "Manual & Automatic",
             Seating_Capacity: "5 - Persons",
-            image: "/images/Swift.jpg",
+            image: "images/Swift.jpg",
             Hybrid: false,
         },
         Mehran: {
@@ -391,7 +391,7 @@ var cars = {
             Kerb_Weight: "30 L",
             Transmission: "Manual",
             Seating_Capacity: "5 - Persons",
-            image: "/images/Mehran.jpg",
+            image: "images/Mehran.jpg",
             Hybrid: false,
         },
         Carry: {
@@ -405,7 +405,7 @@ var cars = {
             Kerb_Weight: "960 KG",
             Transmission: "Automatic",
             Seating_Capacity: "5 - Persons",
-            image: "/images/Carry.jpg",
+            image: "images/Carry.jpg",
             Hybrid: false,
         },
         Every: {
@@ -419,7 +419,7 @@ var cars = {
             Kerb_Weight: "910 KG",
             Transmission: "Automatic",
             Seating_Capacity: "4 - 5 - Persons",
-            image: "/images/Every.jpg",
+            image: "images/Every.jpg",
             Hybrid: false,
         },
         Khyber: {
@@ -433,7 +433,7 @@ var cars = {
             Kerb_Weight: "750 KG",
             Transmission: "Manual",
             Seating_Capacity: "5 - Persons",
-            image: "/images/Khyber.jpg",
+            image: "images/Khyber.jpg",
             Hybrid: false,
         },
     }
