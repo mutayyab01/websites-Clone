@@ -1,42 +1,42 @@
 # All Html,CSS,JavaScript Practice And Assignment
-[Perdiotic Table](https://mutayyab01.github.io/website/Perdiotic-Table)
+[Perdiotic Table](https://mutayyab01.github.io/websites-Clone/Perdiotic-Table)
 
-[Landing Page](https://mutayyab01.github.io/website/landing-page/)
+[Landing Page](https://mutayyab01.github.io/websites-Clone/landing-page/)
 
-[Contact Us Foam](https://mutayyab01.github.io/website/contact)
+[Contact Us Foam](https://mutayyab01.github.io/websites-Clone/contact)
 
-[Float Exercise ](https://mutayyab01.github.io/website/float)
+[Float Exercise ](https://mutayyab01.github.io/websites-Clone/float)
 
-[Sticky Navebar Exercise ](https://mutayyab01.github.io/website/Sticky-navbar)
+[Sticky Navebar Exercise ](https://mutayyab01.github.io/websites-Clone/Sticky-navbar)
 
-[Flexbox Exercise 1 ](https://mutayyab01.github.io/website/flexbox-1)
+[Flexbox Exercise 1 ](https://mutayyab01.github.io/websites-Clone/flexbox-1)
 
-[Flexbox Exercise 2](https://mutayyab01.github.io/website/flexbox-2)
+[Flexbox Exercise 2](https://mutayyab01.github.io/websites-Clone/flexbox-2)
 
-[Flexbox Exercise 3](https://mutayyab01.github.io/website/flexbox-3)
+[Flexbox Exercise 3](https://mutayyab01.github.io/websites-Clone/flexbox-3)
 
-[Grid Exercise 1](https://mutayyab01.github.io/website/grid-1)
+[Grid Exercise 1](https://mutayyab01.github.io/websites-Clone/grid-1)
 
-[Grid Exercise 2](https://mutayyab01.github.io/website/grid-2)
+[Grid Exercise 2](https://mutayyab01.github.io/websites-Clone/grid-2)
 
-[Grid Exercise 3](https://mutayyab01.github.io/website/grid-3)
+[Grid Exercise 3](https://mutayyab01.github.io/websites-Clone/grid-3)
 
-[Website Practice](https://mutayyab01.github.io/website/Mutayyab-Website)
+[websites-Clone Practice](https://mutayyab01.github.io/websites-Clone/Mutayyab-websites-Clone)
 
-[MovieVerse Clone](https://mutayyab01.github.io/website/MovieVerse-Clone)
+[MovieVerse Clone](https://mutayyab01.github.io/websites-Clone/MovieVerse-Clone)
 
-[Responsive Challange](https://mutayyab01.github.io/website/Responsive-Challange)
+[Responsive Challange](https://mutayyab01.github.io/websites-Clone/Responsive-Challange)
 
-[Navebar Practice](https://mutayyab01.github.io/website/Navebar%20Practice)
+[Navebar Practice](https://mutayyab01.github.io/websites-Clone/Navebar%20Practice)
 
-[Portfolio Website Practice](https://mutayyab01.github.io/website/Portfolio-Website)
+[Portfolio websites-Clone Practice](https://mutayyab01.github.io/websites-Clone/Portfolio-websites-Clone)
 
-[Budget App](https://mutayyab01.github.io/website/Budget%20App/index.html)
+[Budget App](https://mutayyab01.github.io/websites-Clone/Budget%20App/index.html)
 
-[Javascript Game Animation Assignment](https://mutayyab01.github.io/website/Game-Animation)
+[Javascript Game Animation Assignment](https://mutayyab01.github.io/websites-Clone/Game-Animation)
 
-[Facebook Post Assignment](https://mutayyab01.github.io/website/Facebook-Post-Assignment)
+[Facebook Post Assignment](https://mutayyab01.github.io/websites-Clone/Facebook-Post-Assignment)
 
-[JavaScript Object Assignment](https://mutayyab01.github.io/website/Pakwheel-Search-Car-Assignment)
+[JavaScript Object Assignment](https://mutayyab01.github.io/websites-Clone/Pakwheel-Search-Car-Assignment)
 
-[Weather App](https://mutayyab01.github.io/website/Weather-App)
+[Weather App](https://mutayyab01.github.io/websites-Clone/Weather-App)
