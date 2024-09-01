@@ -40,3 +40,5 @@
 [JavaScript Object Assignment](https://mutayyab01.github.io/websites-Clone/Pakwheel-Search-Car-Assignment)
 
 [Weather App](https://mutayyab01.github.io/websites-Clone/Weather-App)
+
+[Some Fun](https://mutayyab01.github.io/websites-Clone/photos)
